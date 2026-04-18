@@ -79,7 +79,7 @@ export default function Dashboard() {
   if (!isLoaded || !userId) {
     return (
       <div className="min-h-screen bg-zinc-50 flex items-center justify-center">
-        <p className="text-zinc-500 font-medium">Loading your workspace...</p>
+        <p className="text-zinc-500 font-medium">Please Sign In to view your projects...</p>
       </div>
     );
   }
